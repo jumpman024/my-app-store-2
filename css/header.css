@@ -71,7 +71,7 @@ header .main-menu .menu-1 ul li a{
 header .main-menu .top-content .cart{
     display: inline-block;
     vertical-align: top;
-    margin-left: 142px;
+    margin-left: 150px;
     width: 18px;
     height: 17px;
     background-image: url(../img/cart.png)    
@@ -83,6 +83,7 @@ header .main-menu .top-content .cart a{
     text-decoration: none; 
     font-size: 14px;
     color: #343E5C;
+    margin-left: 22px;
 } 
 
 
