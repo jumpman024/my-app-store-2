@@ -700,7 +700,11 @@ color: rgb(82, 109, 197);
 .pagination-container {
     float:left;
     margin: 100px auto;
+    margin-top: 76px;
+    margin-left: 340px;
+
     text-align: center;
+    
   }
   .pagination {
     position: relative;
@@ -747,3 +751,64 @@ color: rgb(82, 109, 197);
   .pagination-older {
     margin-left: 50px;
   }
+
+
+  .best-sales{
+    width: 1170px;
+    overflow: auto;
+    background-color: white;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+  }
+
+  .best-sales span{
+    margin-left: 540px;
+  }
+  
+  .best-sales ul{
+    border-top: 1px solid #CCCCCC;
+    background-color: white;
+    padding-left: 0px;
+    margin: 44px 0 0 0;
+    
+
+  }
+
+  .best-sales li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0;
+    width: auto;
+    width: 289px;
+    height: 300px;
+    border-right: 1px solid #CCCCCC;
+    color: #343E5C;
+    text-align: center;
+  }
+
+  .best-sales .border{
+    border: none;
+  }
+
+
+  .feedback{
+      width: 1400px;
+      height: 400px;
+      margin: auto;
+
+  }
+
+  .feedback h1{
+      text-align: center;
+  }
+
+  .feedback ul{
+      padding: 0;
+  }
+
+
+  .feedback li{
+    display: inline-block;
+  }
+  
