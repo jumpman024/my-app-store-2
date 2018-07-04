@@ -760,6 +760,7 @@ color: rgb(82, 109, 197);
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
     border-radius: 9px;
+    margin-bottom: 52px;
   }
 
   .best-sales span{
@@ -803,12 +804,34 @@ color: rgb(82, 109, 197);
       text-align: center;
   }
 
+  .feedback .something{
+      text-align: center;
+  }
+
   .feedback ul{
       padding: 0;
+      width: 100%;
+      text-align: center;
   }
 
 
   .feedback li{
     display: inline-block;
+    vertical-align: center;
+    width: 308px;
+    min-height: 200px;
+    margin-right: 115px;
+    overflow: auto;
+    
   }
   
+
+  footer{
+      width: 1400px;
+      background-color: #222328;
+      margin: auto;
+  }
+
+  footer .social{
+      border-bottom: 1px solid #CCCCCC;
+  }
