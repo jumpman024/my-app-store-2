@@ -811,16 +811,15 @@ color: rgb(82, 109, 197);
   .feedback ul{
       padding: 0;
       width: 100%;
-      text-align: center;
+      text-align: left;
   }
 
 
   .feedback li{
     display: inline-block;
-    vertical-align: center;
     width: 308px;
     min-height: 200px;
-    margin-right: 115px;
+    margin-left: 142px;
     overflow: auto;
     
   }
