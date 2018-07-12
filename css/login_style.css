@@ -12,8 +12,11 @@ head{
 
 body, html {
     height: 100%;
-    background-color: rgb(118, 130, 153);
+    background: url("../img/background_wallpaper.jpg") center no-repeat;
+    background-size: cover;
 }
+
+
 
 .login-form {
     display: flex;
@@ -30,31 +33,35 @@ h1{
 }
 
 form{
-    text-align: center;
-    position: relative;
-    width: 330px;
-    height: 400px;
-    margin: 0 auto;
-    padding: 15px 25px 0 25px;
-    cursor: default;
-    font-size: 14px;
-    border: 1px solid #E4E5E7;
-    -webkit-border-radius: 9px;
-    -moz-border-radius: 9px;
-    border-radius: 9px;
-    background-color: #E4E5E7;
+ content: "";
+ text-align: center;
+ width: 300px;
+ height: 400px;
+ background: inherit; 
+ margin: 0 auto;
+ margin-bottom: 111px;
+ padding: 15px 25px 0 25px;
+ cursor: default;
+ font-size: 14px;
+ -webkit-border-radius: 9px;
+ -moz-border-radius: 9px;
+ border-radius: 9px;
+ overflow: hidden;
+ z-index: 1;
+ box-shadow: inset 0 0 0 200px rgba(228,229,231,0.7);
 }
 
-input{
+
+.login-form-2 input{
     margin: auto;
     margin-bottom: 10px;
     padding: 5px;
     width: 300px;
     font-size: 14px;
-    border: 1px solid #55575a;
-    -webkit-border-radius: 9px;
-    -moz-border-radius: 9px;
-    border-radius: 9px;
+    border: 1px solid #E4E5E7;
+    -webkit-border-radius: 31px;
+    -moz-border-radius: 31px;
+    border-radius: 31px;
     outline: none;
     cursor: pointer;
 }
@@ -67,5 +74,29 @@ input:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s eas
 input:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
 input:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
 input:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+.login-form-2 button[type="submit"]{
+    margin: auto;
+    margin-top: 70px;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    width: 300px;
+    height: 55px;
+    font-size: 14px;
+    border: 1px solid #E4E5E7;
+    -webkit-border-radius: 31px;
+    -moz-border-radius: 31px;
+    border-radius: 31px;
+    -webkit-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+
+.login-form-2 button[type="submit"]:hover{
+    color: #E4E5E7;;
+    background-color: #343E5C;
+}
+
 
 
