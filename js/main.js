@@ -38,5 +38,5 @@ $(".pagination-inner a").on("click", function() {
 //* signin script *//
 
 function redirect(){
-	window.open('file:///C:/Users/tt-136/Downloads/my-app-store-2/login_form.html?username=fucku&password=abc#')
+	window.open('file:///C:/Users/jumpm/my-app-store-2/login_form.html')
 }
