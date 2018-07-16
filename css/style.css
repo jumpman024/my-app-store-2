@@ -683,6 +683,7 @@ color: rgb(82, 109, 197);
 	text-decoration: none;
     padding: 0;
     margin-top: 16px;
+    padding-top: 46px;
     width: 270px;
     height: 380px;
     border: 1px solid #DFE4EE;
@@ -692,9 +693,22 @@ color: rgb(82, 109, 197);
     color: #343E5C;
     background-color: white;
     text-align: center;
+    overflow: hidden;
+}
+
+.products .product-list{
+    margin-top: 46px;
+}
+
+.products .product-list .full-size-image{
+    padding: 0;
 }
 
 
+.products ul li .overflow-image{
+    position: relative;
+    left: -46%;
+}
 
 
 .pagination-container {
@@ -777,12 +791,13 @@ color: rgb(82, 109, 197);
   }
 
   .best-sales li{
+    float: left;
     display: inline-block;
     text-decoration: none;
     padding: 0;
     width: auto;
-    width: 289px;
-    height: 300px;
+    width: 288px;
+    min-height: 300px;
     border-right: 1px solid #CCCCCC;
     color: #343E5C;
     text-align: center;
@@ -790,6 +805,10 @@ color: rgb(82, 109, 197);
 
   .best-sales .border{
     border: none;
+  }
+
+  .best-sales .best-sales-1{
+      margin-top: -46px;
   }
 
 

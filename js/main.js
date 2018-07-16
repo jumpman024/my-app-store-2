@@ -38,5 +38,5 @@ $(".pagination-inner a").on("click", function() {
 //* signin script *//
 
 function redirect(){
-	window.open('file:///C:/Users/jumpm/my-app-store-2/login_form.html')
+	window.open('/C:/Users/my-app-store-2/login_form.html')
 }
