@@ -240,7 +240,11 @@ header .banner .banner-2 button[type="submit"]{
     height: 42px;
     margin-top: 10px;
     border-radius: 20px;
+    color: white;
+    font-weight: bold;
 }
+
+
 
 header .banner .banner-2 button[type="submit"]:hover{
     outline: 0;
